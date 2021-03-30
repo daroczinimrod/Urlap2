@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="urlap2.css">
+    <title>Űrlap</title>
+</head>
+
+<body>
+    <h2>
+        Szállitási cim módositása
+    </h2>
+    <form>
+        <label for="nev">Név<a>*</a></label>
+        <label for="tel" id="telabel">Telefonszám<a>*</a></label><br>
+        <input type="text" id="nev">
+        <select>
+            <option>36</option>
+            <option>other</option>
+        </select>
+        <input type="tel" id="tel"><br>
+        <label for="post">Irányitószám<a>*</a></label>
+        <label for="city" id="citylabel">Város<a>*</a></label><br>
+        <input type="text" id="post" value="4032">
+        <select id="varos">
+            <option>Debrecen</option>
+            <option>other</option>
+        </select><br>
+        <label for="orsz">Ország<a>*</a></label>
+        <label for="cim" id="cim">Cim<a>*</a></label><br>
+        <select id="orsz">
+            <option>Magyarország</option>
+            <option>other</option>
+        </select>
+        <input type="text" id="cimes"><br><br>
+        <input type="submit" value="Mentés" id="sub">
+    </form>
+</body>
+
+</html>

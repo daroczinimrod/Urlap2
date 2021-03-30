@@ -1,0 +1,40 @@
+#telabel {
+    margin: 0px 0px 0px 200px;
+}
+h2 {
+    color:rgb(80, 80, 80);
+}
+select {
+    margin-left: 50px;
+}
+a {
+    color: red;
+}
+#nev { 
+    border-color: red;
+}
+#tel {
+    border-color: red;
+}
+#citylabel {
+    margin-left: 120px;
+}
+#cim {
+    margin-left: 160px;
+}
+#sub { 
+ background-color: limegreen;
+ color: white;
+}
+#post{
+    border-color: hsla(0,0,0,0);
+}
+body {
+    font-family: calibri;
+}
+#orsz {
+    margin-left: 0px;
+}
+#cimes {
+    margin-left: 120px;
+}
